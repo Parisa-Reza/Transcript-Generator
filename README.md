@@ -3,7 +3,8 @@
 **Transcript Generator** is a simple and interactive web project that calculates and displays a student’s transcript based on their course marks.  
 Users input their marks for each course and upon clicking **“Generate Transcript”**, the system computes the **average**, determines the **grade**, and displays a **grade sheet** with two columns — *Course Name* and *Marks*.
 
-## Live demo : https://parisa-reza.github.io/Transcript-Generator/
+## Live demo :
+https://parisa-reza.github.io/Transcript-Generator/
 
 ## Initial UI
 
