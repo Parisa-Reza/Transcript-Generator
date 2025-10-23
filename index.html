@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Transcript</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 h-screen flex items-center justify-center">
+    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+        <h1 class="text-2xl font-bold mb-4">Transcript Generator</h1>
+
+        <!-- Input field for the marks -->
+
+        <div class="w-full mx-auto">
+            <div class="flex items-center mb-2">
+                <label class="w-1/3">DSA</label>
+                <input type="number" placeholder="Enter your mark" class="common-num-class border p-2 rounded w-2/3"
+                    value="" />
+            </div>
+
+            <div class="flex items-center mb-2">
+                <label class="w-1/3">OOP</label>
+                <input type="number" placeholder="Enter your mark" class="common-num-class border p-2 rounded w-2/3"
+                    value="" />
+            </div>
+
+            <div class="flex items-center mb-2">
+                <label class="w-1/3">DBMS</label>
+                <input type="number" placeholder="Enter your mark" class="common-num-class border p-2 rounded w-2/3"
+                    value="" />
+            </div>
+
+            <div class="flex items-center mb-2">
+                <label class="w-1/3">SDLC</label>
+                <input type="number" placeholder="Enter your mark" class="common-num-class border p-2 rounded w-2/3"
+                    value="" />
+            </div>
+
+            <div class="flex items-center mb-2">
+                <label class="w-1/3">OS</label>
+                <input type="number" placeholder="Enter your mark" class="common-num-class border p-2 rounded w-2/3"
+                    value="" />
+            </div>
+            <p id="error-message" class="hidden text-red-700 text-sm"></p>
+        </div>
+
+
+
+        <!-- Button to generate transcript sheet -->
+        <button id="generate" class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Generate Transcript</button>
+
+        <div id="result" class="mt-4 text-xl font-bold"></div>
+
+
+        <!-- Display area for the transcript sheet  -->
+        <div id="table-container" class="mt-4">
+            <table class="table-auto border border-slate-700 w-full">
+                <tbody id="table-body">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Include JavaScript -->
+    <script src="script.js"></script>
+</body>
