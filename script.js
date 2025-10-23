@@ -19,7 +19,7 @@ function validateInput() {
     if (!valNum || valNum < 0 || valNum > 100) {
       commonNum[i].classList.add(ERROR_BORDER);
       if (valNum < 0 || valNum > 100) {
-        baseError("Marks must be between 0-100");
+        baseError("Marks must be between 0-100.");
       } else {
         baseError("Please fill up all the mark fields");
       }
